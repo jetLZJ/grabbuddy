@@ -6,7 +6,7 @@ Whats Here
 This submission includes:
 
 * README.md - this file
-* task1.js - solution to Task 1
+
 
 
 How To Get Started
