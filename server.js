@@ -68,7 +68,7 @@ const { auth } = require('express-oauth2-jwt-bearer');
 
 
 
-var port = process.env.PORT || 8080;        // set our port
+var port = process.env.PORT || 5000;        // set our port
 
 // ROUTES FOR OUR API
 // =============================================================================
@@ -117,5 +117,6 @@ router.get('/users', function(req, res) {
 
 // START THE SERVER
 // =============================================================================
+app.use("/api",router);
 app.listen(port);
 console.log('Magic happens on port ' + port);
